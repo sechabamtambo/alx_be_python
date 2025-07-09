@@ -4,4 +4,4 @@ monthlySavings = monthlyIncome - monthlyExpenses
 projectedSavings = monthlySavings * 12 + (monthlySavings * 12 * 0.05)
 
 print(f"Your monthly savings are ${monthlySavings}.")
-print(f"Projected savings after one year, with interest, is: ${projectedSavings}")
+print(f"Projected savings after one year, with interest, is: ${int(projectedSavings)}.")
